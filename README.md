@@ -1,4 +1,4 @@
-# hapi-space-madness
+# hapi-space-madness ![](https://travis-ci.org/mingder78/hapi-space-madness-keycloak.svg?branch=master)
 
 keycloak-plugin
 
