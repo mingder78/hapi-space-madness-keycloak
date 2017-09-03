@@ -20,3 +20,6 @@ $ echo "details coming soon"
 ## License
 
 MIT
+
+
+## Travis
