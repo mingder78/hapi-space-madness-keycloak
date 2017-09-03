@@ -1,7 +1,7 @@
 {
-  "name": "hapi-space-madness",
-  "version": "1.0.0",
-  "description": "keycloak-plugin",
+  "name": "hapi-space-madness-keycloak",
+  "version": "0.0.2",
+  "description": "keycloak-plugin for hapi",
   "main": "index.js",
   "scripts": {
     "test": "lab -c -L",
