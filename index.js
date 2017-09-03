@@ -1,6 +1,14 @@
 'use strict';
 
-exports.register = function (server, options, next) {
+exports.register = function(server, options, next) {
+    console.log(options)
+    server.route({
+        method: 'GET',
+        path: '/test',
+        handler: function(request, reply) {
+            reply('a=' + options.a);
+        }
+    });
 
     next();
 };

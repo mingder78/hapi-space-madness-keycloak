@@ -6,14 +6,26 @@ keycloak-plugin
 ## Install
 
 ```bash
-$ npm install hapi-space-madness
+$ npm install hapi-space-madness-keycloak
 ```
 
 
 ## Usage
 
+```javascript
+const Plugin = 'hapi-space-madness-keycloak';
+{
+    plugin: {
+        register: Plugin,
+        options: {
+            a: 1
+        }
+    }
+},
+```
+test
 ```bash
-$ echo "details coming soon"
+curl http://localhost:8080/test
 ```
 
 
