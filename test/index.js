@@ -14,6 +14,7 @@ lab.experiment('Plugin Registration', () => {
     lab.test('it registers successfully', (done) => {
 
         const server = new Hapi.Server();
+        server.connection({ port: 3000, host: 'localhost' });
         server.register(Plugin, (err) => {
 
             Code.expect(err).to.not.exist();

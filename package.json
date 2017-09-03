@@ -21,8 +21,9 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
-    "hapi": "15.x.x",
     "code": "3.x.x",
+    "hapi": "15.x.x",
+    "jshint": "^2.9.5",
     "lab": "11.x.x"
   }
 }
